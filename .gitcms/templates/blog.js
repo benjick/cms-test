@@ -1,0 +1,9 @@
+export default {
+    rootDir: 'content/blog',
+    onlyFrontmatter: false,
+    schema: {
+        title: "string",
+        name: { type: "string", min: 3, max: 255 },
+        published: "boolean"
+    }
+}
